@@ -1,0 +1,99 @@
+#header{
+    display: flex;flex-direction: row;justify-content: space-evenly;align-items: center;
+    background-color: #730134;color: #fff;position: sticky;top: 0;
+}
+#header>div{
+    width: 33.33%;text-align: center;
+}
+#header img{
+    width: 100px;
+    height: 100px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #730134;font-weight: 600;font-size: 17px;text-align: center;
+}
+table,tr,td{
+    border: 1px solid #a09c9c;
+    border-collapse: collapse;font-weight: bold;padding: 10px;text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+th{
+    background-color: #730134;color: #fff;
+}
+table{
+    width: 100%;padding: 10px;
+}
+#menu{
+    display: flex;flex-direction: row;justify-content: space-evenly;align-items: center;flex-wrap: wrap;
+    margin-top: 10%;
+}
+#menu>a{
+    border: none;background-color: #c4075c;color: #fff;text-decoration: none;padding: 20px;
+    width: 40%;text-align: center;margin: 10px;border-radius: 10px;
+}
+
+#menu>a:hover{
+    transition:0.5s;background-color: #f14392;
+}
+#menu2{
+    display: flex;flex-direction: column;justify-content: space-evenly;align-items: center;
+    margin-top: 10%;
+}
+#menu2>a{
+    border: none;background-color: #c4075c;color: #fff;text-decoration: none;padding: 20px;
+    width: 300px;text-align: center;margin: 10px;border-radius: 10px;
+}
+#services{
+    display: flex;flex-direction: row;align-items: center;justify-content: center;flex-wrap: wrap;
+}
+#services>div{
+    width:20%;margin: 10px;text-align: center;text-decoration: none;
+}
+
+#services img{
+    width: 200px;height: 200px;
+}
+#menu3{
+    display: flex;flex-direction: row;justify-content: space-evenly;align-items: center;flex-wrap: wrap;
+    margin-top: 10%;
+}
+#menu3>a{
+    border: none;background-color: #c4075c;color: #fff;text-decoration: none;padding: 20px;
+    width: 45%;text-align: center;margin: 10px;border-radius: 10px;
+}
+
+#menu3>a:hover{
+    transition:0.5s;background-color: #f14392;
+}
+@media only screen and (max-width: 1000px){
+    #menu>a{
+        width: 30%;
+    }
+     #menu3>a{
+        width: auto;
+    }
+    #uppest{text-align: center;background-color: #ffffffbd;padding: 20px;}
+    #services{
+        flex-direction: row;flex-wrap: wrap;
+    }
+    #services>div{
+        width: 40%; 
+    }
+    #services img{
+        width: 100px;height: 100px;
+    }
+#header h2{
+    display: none;
+}
+#header img{
+    width: 110px;
+    height: 110px;
+}
+#header{
+    position: unset;
+}
+}
