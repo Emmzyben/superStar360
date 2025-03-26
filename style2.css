@@ -318,7 +318,13 @@ footer{
     }
     
     #bg{
-        height: 500px;
+        height: 450px;
+      }
+      .bgwriting{
+        height: 550px !important;
+      }
+      .bglibrary{
+        height: 750px !important;
       }
     .sidenav{
         display: block;
