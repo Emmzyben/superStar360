@@ -459,3 +459,23 @@ footer{
 .goog-te-banner-frame {
   display: none !important;
 }
+#whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  z-index: 1000;
+}
+
+#whatsapp-icon img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+#whatsapp-icon img:hover {
+  transform: scale(1.1);
+}
