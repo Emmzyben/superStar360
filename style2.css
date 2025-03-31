@@ -278,6 +278,13 @@ footer h3{
 #services img{
   width: 100%; border-radius: 100%;
 }
+#uppz{
+  display: flex;flex-direction: row;justify-content: space-between;
+  flex-wrap: wrap;
+}
+#uppz>div{
+  width: auto;
+}
 @media only screen and (max-width: 900px){
   .second{
     flex-direction: column-reverse !important;
@@ -438,4 +445,17 @@ footer{
 }
 .dot.active {
     background-color: #C89B3C;
+}
+#google_translate_element {
+  display: block !important;
+  visibility: visible !important;
+  width: 40% !important;height: 20px !important;
+  margin: 0;padding: 0;
+}
+.goog-te-gadget {
+  font-size: 14px !important;
+  text-align: center !important;
+}
+.goog-te-banner-frame {
+  display: none !important;
 }
